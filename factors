@@ -17,7 +17,7 @@ def factory(num):
         print("{}={}*{}".format(num, int(num//i), i))
     else:
         sq = int(math.sqrt(num)) + 1
-        for i in range =(3, sq, +2):
+        for i in range (3, sq, +2):
             if num % i == 0:
                 print("{}={}*{}".format(num, int(num//i), i))
                 return
